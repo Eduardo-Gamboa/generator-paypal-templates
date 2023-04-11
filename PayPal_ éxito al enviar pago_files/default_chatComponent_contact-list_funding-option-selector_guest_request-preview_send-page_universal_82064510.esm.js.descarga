@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[36],{880:function(n,e,t){"use strict";t.d(e,"a",(function(){return l}));var o=t(861),r=t(14),a=t.n(r),c=t(2),u=t.n(c),s=t(48),i=t.n(s),d=t(0),p=t.n(d);function l(n){let{style:e={},children:t}=n,r=i()(n,["style","children"]);return p.a.createElement(o.a,a()({as:"button",type:"button","data-pagename":"",style:u()({background:"none",border:"none",cursor:"pointer"},e)},r),t)}}}]);
+//# sourceMappingURL=default~chatComponent~contact-list~funding-option-selector~guest~request-preview~send-page~universal~82064510.esm.js.map

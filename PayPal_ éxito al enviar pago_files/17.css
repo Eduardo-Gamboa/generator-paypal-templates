@@ -1,0 +1,489 @@
+.ppvx_dropdown-menu___1-9-16 {
+  position: relative;
+  text-align: left;
+}
+.ppvx_dropdown-menu__label___1-9-16 {
+  pointer-events: none;
+  color: #687173;
+  position: absolute;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  transition: font-size 0.1s ease-in-out, top 0.1s ease-in-out, background-color 10ms 0.1s linear;
+  left: 0.75rem;
+  top: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  right: 3.75rem;
+}
+.ppvx_dropdown-menu__button___1-9-16 {
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  box-sizing: border-box;
+  height: 3.5rem;
+  width: 100%;
+  border: 0.0625rem solid #909697;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1rem calc(0.75rem + 3rem - 0.0625rem) 1rem calc(0.75rem - 0.0625rem);
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ppvx_dropdown-menu__button___1-9-16:before {
+  content: '\E9A3';
+  /* stylelint-disable declaration-no-important */
+  /* using !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PPUI-Icons' !important;
+  /* stylelint-enable declaration-no-important */
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  font-size: 1.125rem;
+}
+.ppvx_dropdown-menu__button___1-9-16:before,
+.ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16 {
+  pointer-events: none;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.75rem;
+  color: #687173;
+  padding: 0.938rem 0.188rem 0.938rem 0.938rem;
+  margin-left: 0.75rem;
+}
+.ppvx_dropdown-menu__button___1-9-16:focus {
+  outline: none;
+}
+.ppvx_dropdown-menu__button___1-9-16:focus:after {
+  content: '';
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: inherit;
+  text-indent: -0.0625rem;
+  width: calc(100% - -0.125rem);
+  height: calc(3.5rem - -0.125rem);
+  pointer-events: none;
+  z-index: 1;
+}
+.ppvx_dropdown-menu__button___1-9-16:not(:empty) {
+  padding-top: 1.563rem;
+  padding-bottom: 0.4375rem;
+}
+.ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label___1-9-16 {
+  top: 0.4375rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  top: 1rem;
+}
+.ppvx_dropdown-menu__button___1-9-16[aria-expanded='true']:before {
+  transform: rotateX(180deg);
+}
+.ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label___1-9-16,
+.ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  top: 0.4375rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.ppvx_dropdown-menu__button--active___1-9-16 {
+  outline: none;
+}
+.ppvx_dropdown-menu__button--active___1-9-16:after {
+  content: '';
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: inherit;
+  text-indent: -0.0625rem;
+  width: calc(100% - -0.125rem);
+  height: calc(3.5rem - -0.125rem);
+  pointer-events: none;
+  z-index: 1;
+}
+.ppvx_dropdown-menu__button--active___1-9-16 ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  top: 0.4375rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.ppvx_dropdown-menu__helper-text___1-9-16 {
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  list-style: none;
+  color: #687173;
+}
+.ppvx_dropdown-menu__error-text___1-9-16 {
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  margin-top: 0.5rem;
+  color: #2c2e2f;
+  align-items: center;
+}
+.ppvx_dropdown-menu__error-text___1-9-16:before {
+  content: '\E91A';
+}
+.ppvx_dropdown-menu__error-text___1-9-16:before {
+  /* stylelint-disable declaration-no-important */
+  /* using !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PPUI-Icons' !important;
+  /* stylelint-enable declaration-no-important */
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  font-size: 1.125rem;
+}
+.ppvx_dropdown-menu__error-text___1-9-16:before,
+.ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16 {
+  color: #d20000;
+  margin-right: 0.75rem;
+}
+.ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border: 0.125rem solid #d20000;
+  padding-left: calc(0.75rem - 0.125rem);
+  padding-right: calc(0.75rem + 3rem - 0.125rem);
+}
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16 {
+  z-index: 1;
+}
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16 {
+  margin-left: -0.125rem;
+  margin-right: 0;
+}
+[dir='rtl'] .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16,
+[dir='rtl'] .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16,
+[dir='rtl'] .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16 + .ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16 {
+  margin-right: -0.125rem;
+  margin-left: 0;
+}
+[dir='rtl'] .ppvx_dropdown-menu___1-9-16 {
+  text-align: right;
+}
+[dir='rtl'] .ppvx_dropdown-menu__button___1-9-16 {
+  text-align: right;
+  padding-right: calc(0.75rem - 0.0625rem);
+  padding-left: calc(0.75rem + 3rem - 0.0625rem);
+}
+[dir='rtl'] .ppvx_dropdown-menu__button___1-9-16:before,
+[dir='rtl'] .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16 {
+  padding: 0.938rem 0.938rem 0.938rem 0.188rem;
+  margin-right: 0.75rem;
+  margin-left: 0;
+  left: 0.75rem;
+  right: auto;
+}
+[dir='rtl'] .ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16,
+.ppvx_field--error___1-9-16[dir='rtl'] .ppvx_dropdown-menu__button___1-9-16 {
+  padding-left: calc(0.75rem + 3rem - 0.125rem);
+  padding-right: calc(0.75rem - 0.125rem);
+}
+[dir='rtl'] .ppvx_dropdown-menu__label___1-9-16 {
+  right: 0.75rem;
+  left: 3.75rem;
+}
+[dir='rtl'] .ppvx_dropdown-menu__error-text___1-9-16:before,
+[dir='rtl'] .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16 {
+  margin-left: 0.75rem;
+  margin-right: 0;
+}
+.ppvx_dropdown-menu--combine-left___1-9-16 {
+  margin-left: -0.0625rem;
+}
+.ppvx_dropdown-menu--combine-left___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+[dir='rtl'] .ppvx_dropdown-menu--combine-left___1-9-16 {
+  margin-left: 0;
+  margin-right: -0.0625rem;
+}
+[dir='rtl'] .ppvx_dropdown-menu--combine-left___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.ppvx_dropdown-menu--combine-right___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+[dir='rtl'] .ppvx_dropdown-menu--combine-right___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.ppvx_dropdown-menu--combine-both___1-9-16 {
+  margin-left: -0.0625rem;
+}
+.ppvx_dropdown-menu--combine-both___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-radius: 0;
+}
+[dir='rtl'] .ppvx_dropdown-menu--combine-both___1-9-16 {
+  margin-left: 0;
+  margin-right: -0.0625rem;
+}
+.ppvx_dropdown-menu__button-with-svg-icon___1-9-16:before,
+.ppvx_dropdown-menu__error-text-with-svg-icon___1-9-16:before {
+  display: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__label___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__label___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  top: 1.25rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  border-color: #909191;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  height: 4rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16 {
+  color: #515354;
+  padding: 0.75rem;
+  top: 0.5rem;
+  right: 0.25rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before {
+  content: '';
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-mask: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-chevron-down.svg') center no-repeat;
+  mask: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-chevron-down.svg') center no-repeat;
+  -webkit-mask-size: 1.5rem;
+  mask-size: 1.5rem;
+  /* stylelint-enable property-no-vendor-prefix */
+  background-color: #515354;
+  width: 3rem;
+  height: 3rem;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+  .ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before {
+    /* IE10+ doesn't do mask... set the content instead */
+    content: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-chevron-down.svg');
+    background: none;
+  }
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:focus,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:focus {
+  outline: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:focus:after,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:focus:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 0.1875rem solid #1040c1;
+  box-shadow: 0 0 0 0.375rem rgba(16, 114, 235, 0.16);
+  border-radius: inherit;
+  width: 100%;
+  height: 4rem;
+  pointer-events: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty),
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty) {
+  padding-top: 1.813rem;
+  padding-bottom: 0.688rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  top: 0.4375rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label--empty___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:not(:empty) ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  top: 1.25rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label___1-9-16,
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label--empty___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16[aria-expanded='true'] ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  top: 0.4375rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16 {
+  outline: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16:after,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 0.1875rem solid #1040c1;
+  box-shadow: 0 0 0 0.375rem rgba(16, 114, 235, 0.16);
+  border-radius: inherit;
+  width: 100%;
+  height: 4rem;
+  pointer-events: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16 ~ .ppvx_dropdown-menu__label--empty___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button--active___1-9-16 ~ .ppvx_dropdown-menu__label--empty___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  top: 0.4375rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__helper-text___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__helper-text___1-9-16,
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  margin-top: 0.25rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16:before,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16:before,
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16 {
+  color: #d9360b;
+  margin-right: 0.25rem;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16 {
+  border-color: #d9360b;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16:focus,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16:focus {
+  outline: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16:focus:after,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button___1-9-16:focus:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 0.1875rem solid #d9360b;
+  box-shadow: 0 0 0 0.375rem rgba(217, 54, 11, 0.16);
+  border-radius: inherit;
+  width: 100%;
+  height: 4rem;
+  pointer-events: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button--active___1-9-16,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button--active___1-9-16 {
+  outline: none;
+}
+.ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button--active___1-9-16:after,
+.ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16).ppvx_field--error___1-9-16 .ppvx_dropdown-menu__button--active___1-9-16:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 0.1875rem solid #d9360b;
+  box-shadow: 0 0 0 0.375rem rgba(217, 54, 11, 0.16);
+  border-radius: inherit;
+  width: 100%;
+  height: 4rem;
+  pointer-events: none;
+}
+[dir='rtl'] .ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16:before,
+.ppvx--v2___1-9-16 [dir='rtl'] .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16:before,
+[dir='rtl'] .ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16:before,
+[dir='rtl'] .ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16,
+.ppvx--v2___1-9-16 [dir='rtl'] .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16,
+[dir='rtl'] .ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__error-text___1-9-16 .ppvx_dropdown-menu__error-icon___1-9-16 {
+  margin-left: 0.25rem;
+  margin-right: 0;
+}
+[dir='rtl'] .ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+.ppvx--v2___1-9-16 [dir='rtl'] .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+[dir='rtl'] .ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16:before,
+[dir='rtl'] .ppvx--v2___1-9-16 .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16,
+.ppvx--v2___1-9-16 [dir='rtl'] .ppvx_dropdown-menu___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16,
+[dir='rtl'] .ppvx_dropdown-menu___1-9-16.ppvx--v2___1-9-16:not(.ppvx--v1___1-9-16) .ppvx_dropdown-menu__button___1-9-16 .ppvx_dropdown-menu__affordance-icon___1-9-16 {
+  left: 0.25rem;
+  right: auto;
+}
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-right___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-left___1-9-16,
+.ppvx_field--error___1-9-16.ppvx_dropdown-menu--combine-both___1-9-16 {
+  z-index: 1;
+}
+.ppvx_dropdown-menu__select___1-9-16 {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+
+/*# sourceMappingURL=17.css.map*/

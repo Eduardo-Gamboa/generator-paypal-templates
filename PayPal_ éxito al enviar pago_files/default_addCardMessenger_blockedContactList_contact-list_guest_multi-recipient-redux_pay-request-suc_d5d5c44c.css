@@ -1,0 +1,331 @@
+.ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9),
+.ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) {
+  display: flex;
+  align-items: center;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9,
+.ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9 {
+  border: 0.0625rem solid #f7f5f0;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background-color: #f7f5f0;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9:not(:first-of-type),
+.ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9:not(:first-of-type) {
+  margin-left: -0.625rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__screenreader___2-10-9,
+.ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__screenreader___2-10-9 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__label___2-10-9,
+.ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__label___2-10-9 {
+  color: #515354;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  margin-left: 0.75rem;
+  margin-right: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+[dir='rtl'] .ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9,
+[dir='rtl'] .ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9 {
+  margin-left: 0;
+}
+[dir='rtl'] .ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9:not(:first-of-type),
+[dir='rtl'] .ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__avatar___2-10-9:not(:first-of-type) {
+  margin-right: -0.625rem;
+}
+[dir='rtl'] .ppvx--v2___2-10-9 .ppvx_avatar-stack___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__label___2-10-9,
+[dir='rtl'] .ppvx_avatar-stack___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar-stack__label___2-10-9 {
+  margin-left: 0;
+  margin-right: 0.75rem;
+}
+/* DO NOT USE THESE VARIABLES. THESE ARE TEMPORARY VARIABLES, SOON WILL BE REPLACED BY TOKENS */
+.ppvx_avatar___2-10-9 {
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  line-height: 3.75rem;
+  background-color: #687173;
+  border: 0.0625rem solid #eaeced;
+}
+.ppvx_avatar___2-10-9 .ppvx_icon___2-10-9 {
+  font-size: 2.25rem;
+  line-height: inherit;
+}
+.ppvx_avatar__image___2-10-9 {
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  background: #ffffff;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ppvx_avatar--size_xs___2-10-9 {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.ppvx_avatar--size_xs___2-10-9 .ppvx_icon___2-10-9 {
+  font-size: 1.125rem;
+}
+.ppvx_avatar--size_sm___2-10-9 {
+  width: 2rem;
+  height: 2rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.ppvx_avatar--size_sm___2-10-9 .ppvx_icon___2-10-9 {
+  font-size: 1.125rem;
+}
+.ppvx_avatar--size_md___2-10-9 {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+.ppvx_avatar--size_md___2-10-9 .ppvx_icon___2-10-9 {
+  font-size: 1.5rem;
+}
+.ppvx_avatar--size_lg___2-10-9 {
+  width: 3.75rem;
+  height: 3.75rem;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  line-height: 3.75rem;
+}
+.ppvx_avatar--size_lg___2-10-9 .ppvx_icon___2-10-9 {
+  font-size: 2.25rem;
+  line-height: inherit;
+}
+.ppvx_avatar--color_grey___2-10-9 {
+  background-color: #687173;
+  border: 0.0625rem solid #eaeced;
+}
+.ppvx_avatar--color_blue___2-10-9 {
+  background-color: #0070ba;
+  border: 0.0625rem solid #0070ba;
+}
+.ppvx_avatar--color_green___2-10-9 {
+  background-color: #018065;
+  border: 0.0625rem solid #018065;
+}
+.ppvx_avatar--color_purple___2-10-9 {
+  background-color: #640487;
+  border: 0.0625rem solid #640487;
+}
+.ppvx_avatar--color_pink___2-10-9 {
+  background-color: #de0063;
+  border: 0.0625rem solid #de0063;
+}
+/* v2 styles */
+.ppvx_avatar--shimmer___2-10-9 {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+.ppvx_avatar--shimmer___2-10-9.ppvx_avatar--size_xs___2-10-9 {
+  width: 2rem;
+  height: 2rem;
+}
+.ppvx_avatar--shimmer___2-10-9.ppvx_avatar--size_sm___2-10-9 {
+  width: 3rem;
+  height: 3rem;
+}
+.ppvx_avatar--shimmer___2-10-9.ppvx_avatar--size_md___2-10-9 {
+  width: 4rem;
+  height: 4rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9),
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) {
+  border: 0.0625rem solid #f7f5f0;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  font-size: 2.375rem;
+  line-height: 6rem;
+  background-color: #9c2874;
+  color: #ffcfef;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar__icon___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar__icon___2-10-9 {
+  font-size: 4rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_xs___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_xs___2-10-9 {
+  color: #ffcfef;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_xs___2-10-9 .ppvx_avatar__icon___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_xs___2-10-9 .ppvx_avatar__icon___2-10-9 {
+  font-size: 1.5rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_sm___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_sm___2-10-9 {
+  color: #ffcfef;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_sm___2-10-9 .ppvx_avatar__icon___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_sm___2-10-9 .ppvx_avatar__icon___2-10-9 {
+  font-size: 2rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_md___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_md___2-10-9 {
+  color: #ffcfef;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: normal;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_md___2-10-9 .ppvx_avatar__icon___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_md___2-10-9 .ppvx_avatar__icon___2-10-9 {
+  font-size: 2.75rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_lg___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_lg___2-10-9 {
+  width: 6rem;
+  height: 6rem;
+  font-size: 2.375rem;
+  line-height: 6rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_lg___2-10-9 .ppvx_avatar__icon___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--size_lg___2-10-9 .ppvx_avatar__icon___2-10-9 {
+  font-size: 4rem;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_magenta___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_magenta___2-10-9 {
+  background-color: #9c2874;
+  color: #ffcfef;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_green___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_green___2-10-9 {
+  background-color: #25694f;
+  color: #cbf3ec;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_yellow___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_yellow___2-10-9 {
+  background-color: #ffc43a;
+  color: #785504;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_purple___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar--color_purple___2-10-9 {
+  background-color: #761ad3;
+  color: #f2e6fe;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_blue___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_blue___2-10-9 {
+  background-color: #d1f1ff;
+  color: #1040c1;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_pink___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_pink___2-10-9 {
+  background-color: #ffcfef;
+  color: #9c2874;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_mint___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_mint___2-10-9 {
+  background-color: #cbf3ec;
+  color: #25694f;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_lilac___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_lilac___2-10-9 {
+  background-color: #f2e6fe;
+  color: #761ad3;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_purple___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_purple___2-10-9 {
+  background-color: #761ad3;
+  color: #f2e6fe;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_yellow___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_yellow___2-10-9 {
+  background-color: #ffc43a;
+  color: #785504;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_green___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_green___2-10-9 {
+  background-color: #25694f;
+  color: #cbf3ec;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_magenta___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--color_magenta___2-10-9 {
+  background-color: #9c2874;
+  color: #ffcfef;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_profile___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_profile___2-10-9 {
+  background-color: #ffffff;
+  color: #142c8e;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_merchant___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_merchant___2-10-9 {
+  background-color: #d1f1ff;
+  color: #1040c1;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_causes___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_causes___2-10-9 {
+  background-color: #ffcfef;
+  color: #9c2874;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_bank___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9).ppvx_avatar--generic_bank___2-10-9 {
+  background-color: #cbf3ec;
+  color: #25694f;
+}
+.ppvx--v2___2-10-9 .ppvx_avatar___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar__badge___2-10-9,
+.ppvx_avatar___2-10-9.ppvx--v2___2-10-9:not(.ppvx--v1___2-10-9) .ppvx_avatar__badge___2-10-9 {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  right: -0.0625rem;
+}
+
+
+/*# sourceMappingURL=default~addCardMessenger~blockedContactList~contact-list~guest~multi-recipient-redux~pay-request-suc~d5d5c44c.css.map*/

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[55],{117:function(n,r,t){"use strict";t.d(r,"a",(function(){return i}));var o=t(76),c=t.n(o);function i(n){return"/myaccount/transfer/fx/xoom/redirect?"+c.a.stringify(n)}}}]);
+//# sourceMappingURL=default~delivery-method~more-funnel~request-page~request-success~send-page.esm.js.map
