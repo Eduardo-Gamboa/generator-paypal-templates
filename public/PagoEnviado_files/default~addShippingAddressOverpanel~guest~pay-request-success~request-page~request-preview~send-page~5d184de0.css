@@ -1,0 +1,323 @@
+.ppvx_combo-menu__container___1-8-1 {
+  overflow-y: auto;
+  margin-top: 0.25rem;
+  z-index: 1060;
+  outline: 0.0625rem solid transparent;
+  display: none;
+  border-radius: 0.25rem;
+  min-width: 8rem;
+  max-width: 67.5rem;
+  max-height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1051;
+  box-shadow: 0rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+.ppvx_combo-menu__container___1-8-1[aria-hidden='false'] {
+  display: block;
+}
+.ppvx_combo-menu___1-8-1 {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.ppvx_combo-menu___1-8-1.ppvx_menu-list--multiline___1-8-1 .ppvx_menu-list__item--thumbnail___1-8-1 {
+  align-items: end;
+  margin-top: 0.375rem;
+}
+.ppvx_combo-menu___1-8-1.ppvx_menu-list--multiline___1-8-1 .ppvx_menu-list__item___1-8-1 {
+  align-items: end;
+}
+.ppvx_combo-menu___1-8-1.ppvx_combo-menu--multiline___1-8-1 .ppvx_combo-menu__item--thumbnail___1-8-1 {
+  align-items: end;
+  margin-top: 0.375rem;
+}
+.ppvx_combo-menu___1-8-1.ppvx_combo-menu--multiline___1-8-1 .ppvx_combo-menu__item___1-8-1 {
+  align-items: end;
+}
+.ppvx_combo-menu__message___1-8-1 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+}
+@media (max-width: 46.9375rem) {
+  .ppvx_combo-menu__message___1-8-1 {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+  }
+}
+.ppvx_combo-menu__item___1-8-1 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+@media (max-width: 46.9375rem) {
+  .ppvx_combo-menu__item___1-8-1 {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+  }
+}
+.ppvx_combo-menu__item___1-8-1.ppvx_menu-list__item--hilite___1-8-1,
+.ppvx_combo-menu__item___1-8-1:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.08) 80%, rgba(44, 46, 47, 0.08) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_combo-menu__item___1-8-1:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.12) 80%, rgba(44, 46, 47, 0.12) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1 {
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before {
+  content: '\E90D';
+  color: #0070ba;
+  font-size: 1.125rem;
+  /* stylelint-disable declaration-no-important */
+  /* using !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PPUI-Icons' !important;
+  /* stylelint-enable declaration-no-important */
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+[dir='rtl'] .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before {
+  right: auto;
+  left: 1rem;
+}
+.ppvx_combo-menu__item___1-8-1:active:after {
+  display: none;
+}
+.ppvx_combo-menu__item--secondary-text___1-8-1 {
+  display: block;
+  color: #687173;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.ppvx_combo-menu__item--text___1-8-1 {
+  margin: 0;
+  /* overwrite default margin */
+  color: #2c2e2f;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  pointer-events: none;
+  margin-right: 2.125rem;
+}
+[dir='rtl'] .ppvx_combo-menu__item--text___1-8-1 {
+  margin-right: 0;
+  margin-left: 2.125rem;
+}
+.ppvx_combo-menu__item--thumbnail___1-8-1 {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  min-height: auto;
+}
+[dir='rtl'] .ppvx_combo-menu__item--thumbnail___1-8-1 {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+.ppvx_combo-menu__item--thumbnail-image___1-8-1 {
+  width: 1.875rem;
+}
+.ppvx_combobox__loading-container___1-8-1 {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu__container___1-8-1:not(.ppvx--v1___1-8-1),
+.ppvx_combo-menu__container___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) {
+  box-shadow: 0rem 0rem 0.125rem rgba(0, 0, 0, 0.04), 0rem 0.0625rem 0.75rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+}
+@media (max-width: 46.9375rem) {
+  .ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1),
+  .ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) {
+    padding-bottom: 2.125rem;
+  }
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__message___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__message___1-8-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before {
+  content: '';
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-mask: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-checkmark.svg') center no-repeat;
+  mask: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-checkmark.svg') center no-repeat;
+  -webkit-mask-size: 1.5rem;
+  mask-size: 1.5rem;
+  /* stylelint-enable property-no-vendor-prefix */
+  background-color: #515354;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before,
+  .ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item___1-8-1[aria-selected='true'] .ppvx_combo-menu__item--text___1-8-1:before {
+    /* IE10+ doesn't do mask... set the content instead */
+    content: url('https://www.paypalobjects.com/paypal-ui/icons/svg/v2-checkmark.svg');
+    background: none;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--text___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--text___1-8-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--thumbnail___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--thumbnail___1-8-1 {
+  margin-right: 0.75rem;
+}
+.ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--secondary-text___1-8-1,
+.ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--secondary-text___1-8-1 {
+  padding-top: 0.25rem;
+  color: #757676;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+[dir='rtl'] .ppvx--v2___1-8-1 .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--thumbnail___1-8-1,
+[dir='rtl'] .ppvx_combo-menu___1-8-1.ppvx--v2___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--thumbnail___1-8-1,
+.ppvx--v2___1-8-1 [dir='rtl'] .ppvx_combo-menu___1-8-1:not(.ppvx--v1___1-8-1) .ppvx_combo-menu__item--thumbnail___1-8-1 {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+.ppvx_combobox___1-8-1 {
+  position: relative;
+}
+.ppvx_combobox___1-8-1 [dir='rtl'].ppvx_text-input___1-8-1 + .ppvx_selection-menu-container___1-8-1 {
+  right: 0;
+}
+.ppvx_combobox--menu___1-8-1 {
+  top: 3.5rem;
+}
+.ppvx--v2___1-8-1 .ppvx_combobox--menu___1-8-1:not(.ppvx--v1___1-8-1) {
+  top: 4rem;
+}
+.ppvx_combobox__affordance-icon___1-8-1 {
+  color: #515354;
+  cursor: pointer;
+}
+
+.ppvx_auto-suggest___1-3-7 {
+  position: relative;
+}
+.ppvx_auto-suggest__suggestion-list-container___1-3-7 {
+  min-width: 8rem;
+  max-width: 67.5rem;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+.ppvx_auto-suggest__suggestion-list-container--elevated___1-3-7 {
+  box-shadow: 0rem 0rem 0.125rem rgba(0, 0, 0, 0.04), 0rem 0.0625rem 0.75rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  z-index: 1060;
+  outline: 0.0625rem solid transparent;
+  top: 4rem;
+  position: absolute;
+}
+.ppvx_auto-suggest__suggestion-list-footer___1-3-7 {
+  padding: 0.75rem 1rem;
+}
+.ppvx_auto-suggest__suggestion-list___1-3-7 {
+  overflow-y: auto;
+  max-height: 30rem;
+}
+.ppvx_auto-suggest__suggestion-list___1-3-7,
+.ppvx_auto-suggest__suggestion-sublist___1-3-7 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ppvx_auto-suggest__suggestion___1-3-7 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.ppvx_auto-suggest__section-title___1-3-7,
+.ppvx_auto-suggest__suggestion___1-3-7 {
+  padding: 0.75rem 1rem;
+}
+.ppvx_auto-suggest__error-message___1-3-7 {
+  margin: 0 1rem;
+}
+.ppvx_auto-suggest__suggestion-decoration___1-3-7 {
+  margin-right: 0.75rem;
+}
+.ppvx_auto-suggest__content--centered___1-3-7 {
+  display: flex;
+  justify-content: center;
+}
+[dir='rtl'] .ppvx_auto-suggest__suggestion-decoration___1-3-7 {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+.ppvx_auto-suggest__suggestion--highlighted___1-3-7,
+.ppvx_auto-suggest__suggestion___1-3-7:hover {
+  background-color: #f1efea;
+}
+@media (max-width: 47rem) {
+  .ppvx_auto-suggest__suggestion-list___1-3-7 {
+    max-height: 15rem;
+  }
+}
+
+.ppvx_address-input__google-footer___1-3-7 {
+  text-align: center;
+}
+.ppvx_address-input__google-footer___1-3-7 img {
+  height: 0.75rem;
+}
+
+
+/*# sourceMappingURL=default~addShippingAddressOverpanel~guest~pay-request-success~request-page~request-preview~send-page~5d184de0.css.map*/

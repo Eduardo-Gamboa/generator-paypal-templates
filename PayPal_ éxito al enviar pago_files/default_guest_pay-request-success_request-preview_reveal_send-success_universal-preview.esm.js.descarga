@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{888:function(n,t,c){"use strict";c.d(t,"a",(function(){return i}));var o=c(11),s=c.n(o),a=c(12);const e=s()(a.a,"cdnHostName");function i(n,t){let c=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"svg";return"".concat(e,"/digitalassets/c/consumer/p2p/gift-themes/").concat(n,"-").concat(t,".").concat(c)}}}]);
-//# sourceMappingURL=default~guest~pay-request-success~request-preview~reveal~send-success~universal-preview.esm.js.map

@@ -1,0 +1,301 @@
+.ppvx_loading-spinner___2-8-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #005ea6;
+  position: relative;
+  -webkit-animation: border-spinner___2-8-6 1s linear infinite;
+          animation: border-spinner___2-8-6 1s linear infinite;
+}
+.ppvx_loading-spinner___2-8-6:before,
+.ppvx_loading-spinner___2-8-6:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 100% 50%;
+  border-bottom-left-radius: 100% 50%;
+  border: 0.125rem solid currentColor;
+  border-right-width: 0;
+}
+.ppvx_loading-spinner___2-8-6:after {
+  transform-origin: center right;
+  transform: rotate(-90deg);
+}
+@-webkit-keyframes border-spinner___2-8-6 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes border-spinner___2-8-6 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ppvx_loading-spinner--size_xs___2-8-6 {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.ppvx_loading-spinner--size_md___2-8-6 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.ppvx_loading-spinner--size_lg___2-8-6 {
+  width: 3rem;
+  height: 3rem;
+}
+.ppvx_loading-spinner--size_xl___2-8-6 {
+  width: 6rem;
+  height: 6rem;
+}
+.ppvx_loading-spinner--inverse___2-8-6 {
+  color: #ffffff;
+}
+.ppvx_loading-spinner__screenreader___2-8-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx--v2___2-8-6 .ppvx_loading-spinner___2-8-6:not(.ppvx--v1___2-8-6),
+.ppvx_loading-spinner___2-8-6.ppvx--v2___2-8-6:not(.ppvx--v1___2-8-6) {
+  color: #142c8e;
+}
+.ppvx--v2___2-8-6 .ppvx_loading-spinner--inverse___2-8-6:not(.ppvx--v1___2-8-6),
+.ppvx--v2___2-8-6.ppvx_loading-spinner--inverse___2-8-6:not(.ppvx--v1___2-8-6) {
+  color: #ffffff;
+}
+
+/* unused icon-button tokens */
+/* token for tap target in small icon-button */
+.ppvx_icon-button___1-6-6 {
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: inline-flex;
+}
+.ppvx_icon-button--primary___1-6-6 {
+  color: #2c2e2f;
+}
+.ppvx_icon-button--primary___1-6-6:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.08) 80%, rgba(44, 46, 47, 0.08) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_icon-button--primary___1-6-6:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.12) 80%, rgba(44, 46, 47, 0.12) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_icon-button--primary___1-6-6:focus {
+  outline: none;
+}
+.ppvx_icon-button--primary___1-6-6:focus:after {
+  content: '';
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  right: 0;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: inherit;
+  text-indent: 0.0625rem;
+  width: calc(100% + 0.125rem);
+  height: calc(100% + 0.125rem);
+  pointer-events: none;
+}
+.ppvx_icon-button--inverse___1-6-6 {
+  color: #ffffff;
+}
+.ppvx_icon-button--inverse___1-6-6:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(255, 255, 255, 0.08) 80%, rgba(255, 255, 255, 0.08) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_icon-button--inverse___1-6-6:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(255, 255, 255, 0.16) 80%, rgba(255, 255, 255, 0.16) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_icon-button--inverse___1-6-6:focus {
+  outline: none;
+}
+.ppvx_icon-button--inverse___1-6-6:focus:after {
+  content: '';
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  right: 0;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: inherit;
+  text-indent: 0.0625rem;
+  width: calc(100% + 0.125rem);
+  height: calc(100% + 0.125rem);
+  pointer-events: none;
+  border: 0.125rem solid #bfdbee;
+  box-shadow: 0 0 0 0.25rem rgba(191, 219, 238, 0.4);
+}
+.ppvx_icon-button--size_sm___1-6-6 {
+  padding: 0.5rem;
+}
+.ppvx_icon-button--size_sm___1-6-6:before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: -0.125rem;
+  right: -0.125rem;
+  bottom: -0.125rem;
+  left: -0.125rem;
+}
+.ppvx_icon-button--secondary___1-6-6:hover,
+.ppvx_icon-button--tertiary___1-6-6:hover {
+  background: #d1f1ff;
+}
+.ppvx_icon-button--secondary___1-6-6 {
+  color: #142c8e;
+  background: #f7f5f0;
+}
+.ppvx_icon-button--secondary___1-6-6:active {
+  background: #dcdde4;
+}
+.ppvx_icon-button--secondary___1-6-6.ppvx_icon-button--inverse___1-6-6 {
+  background: #ffffff;
+}
+.ppvx_icon-button--secondary___1-6-6.ppvx_icon-button--inverse___1-6-6:hover {
+  background: #d1f1ff;
+}
+.ppvx_icon-button--secondary___1-6-6.ppvx_icon-button--inverse___1-6-6:active {
+  background: #e3e6f1;
+}
+.ppvx_icon-button--tertiary___1-6-6 {
+  color: #515354;
+  background: rgba(0, 0, 0, 0);
+}
+.ppvx_icon-button--tertiary___1-6-6:active {
+  background: #e3e6f1;
+}
+.ppvx_icon-button--tertiary___1-6-6.ppvx_icon-button--inverse___1-6-6 {
+  color: #ffffff;
+  background: rgba(12, 12, 13, 0.3);
+}
+.ppvx_icon-button--tertiary___1-6-6.ppvx_icon-button--inverse___1-6-6:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+.ppvx_icon-button--tertiary___1-6-6.ppvx_icon-button--inverse___1-6-6:active {
+  background: rgba(12, 12, 13, 0.6);
+}
+.ppvx_icon-button__label___1-6-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx_icon-button__icon___1-6-6 {
+  pointer-events: none;
+}
+/* ---------------- PayPal UI 2.0 Styles ------------------ */
+.ppvx_icon-button__shimmer___1-6-6 {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.ppvx_icon-button__shimmer___1-6-6.ppvx_icon-button--size_sm___1-6-6 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.ppvx_icon-button__shimmer___1-6-6.ppvx_icon-button--size_sm___1-6-6:before {
+  display: none;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6):focus,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6):focus {
+  outline: none;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6):focus:after,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6):focus:after {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border: 0.1875rem solid #1040c1;
+  box-shadow: 0 0 0 0.375rem rgba(16, 114, 235, 0.16);
+  border-radius: 50%;
+  text-indent: 0rem;
+  width: calc(100% - 0rem);
+  height: calc(100% - 0rem);
+  pointer-events: none;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6 {
+  color: #ffffff;
+  background: #142c8e;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6:hover,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6:hover {
+  background: #1040c1;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6:active,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--primary___1-6-6:active {
+  background: #121661;
+}
+.ppvx--v2___1-6-6 .ppvx_icon-button___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--inverse___1-6-6:focus:after,
+.ppvx_icon-button___1-6-6.ppvx--v2___1-6-6:not(.ppvx--v1___1-6-6).ppvx_icon-button--inverse___1-6-6:focus:after {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: 50%;
+  text-indent: 0rem;
+  width: calc(100% - 0rem);
+  height: calc(100% - 0rem);
+  pointer-events: none;
+  border: 0.1875rem solid #56ccfe;
+  box-shadow: 0 0 0 0.375rem rgba(209, 241, 255, 0.16);
+}
+.ppvx_icon-button__loading-spinner___1-6-6 {
+  margin: 0;
+}
+.ppvx_icon-button--state_processing___1-6-6,
+.ppvx_icon-button--state_success___1-6-6 {
+  pointer-events: none;
+}
+.ppvx--v2___1-6-6.ppvx_icon-button___1-6-6.ppvx_icon-button--state_success___1-6-6,
+.ppvx_icon-button___1-6-6 .ppvx--v2___1-6-6.ppvx_icon-button--state_success___1-6-6 {
+  background-color: #308a67;
+  color: #ffffff;
+}
+.ppvx--v2___1-6-6.ppvx_icon-button___1-6-6.ppvx_icon-button--state_success___1-6-6.ppvx_icon-button--primary___1-6-6,
+.ppvx_icon-button___1-6-6 .ppvx--v2___1-6-6.ppvx_icon-button--state_success___1-6-6.ppvx_icon-button--primary___1-6-6 {
+  background-color: #308a67;
+  color: #ffffff;
+}
+.ppvx_icon-button--state__screenreader___1-6-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+/*# sourceMappingURL=141.css.map*/

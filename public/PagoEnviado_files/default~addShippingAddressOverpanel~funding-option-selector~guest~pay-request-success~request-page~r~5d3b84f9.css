@@ -1,0 +1,99 @@
+.ppvx_contextual-alert___2911R {
+  display: flex;
+  padding: 1rem 0;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #2c2e2f;
+}
+.ppvx_contextual-alert___2911R:before {
+  content: '';
+  /* stylelint-disable declaration-no-important */
+  /* using !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PPUI-Icons' !important;
+  /* stylelint-enable declaration-no-important */
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  font-size: 1.5rem;
+}
+.ppvx_contextual-alert___2911R:before,
+.ppvx_contextual-alert___2911R .ppvx_contextual-alert__status-icon___Qz4Yo {
+  font-size: 1.125rem;
+  padding-right: 0.75rem;
+  padding-top: 0.1875rem;
+}
+[dir='rtl'] .ppvx_contextual-alert___2911R:before,
+.ppvx_contextual-alert___2911R[dir='rtl']:before,
+[dir='rtl'] .ppvx_contextual-alert___2911R .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R[dir='rtl'] .ppvx_contextual-alert__status-icon___Qz4Yo {
+  padding-left: 0.75rem;
+  padding-right: 0;
+}
+.ppvx_contextual-alert--type_info___2cf0K:before {
+  content: '\E925';
+}
+.ppvx_contextual-alert--type_info___2cf0K:before,
+.ppvx_contextual-alert--type_info___2cf0K .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #2c2e2f;
+}
+.ppvx_contextual-alert--type_success___1Y3J4:before,
+.ppvx_contextual-alert--type_success___1Y3J4 .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #299976;
+}
+.ppvx_contextual-alert--type_success___1Y3J4:before {
+  content: '\E90E';
+}
+.ppvx_contextual-alert--type_warning___2j0MX:before {
+  content: '\E947';
+}
+.ppvx_contextual-alert--type_warning___2j0MX:before,
+.ppvx_contextual-alert--type_warning___2j0MX .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #ff9600;
+}
+.ppvx_contextual-alert--type_error___3DyZg:before,
+.ppvx_contextual-alert--type_error___3DyZg .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #d20000;
+}
+.ppvx_contextual-alert--type_error___3DyZg:before {
+  content: '\E91A';
+}
+.ppvx_contextual-alert--with-svg-icon___3gTNp:before {
+  display: none;
+}
+/* ---------------- PayPal UI 2.0 Styles ------------------ */
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI),
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI) {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI) > .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI) > .ppvx_contextual-alert__status-icon___Qz4Yo {
+  padding-top: 0.0625rem;
+}
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_info___2cf0K .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_info___2cf0K .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #0c0c0d;
+}
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_success___1Y3J4 .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_success___1Y3J4 .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #308a67;
+}
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_warning___2j0MX .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_warning___2j0MX .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #d89700;
+}
+.ppvx--v2___qRxBB .ppvx_contextual-alert___2911R:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_error___3DyZg .ppvx_contextual-alert__status-icon___Qz4Yo,
+.ppvx_contextual-alert___2911R.ppvx--v2___qRxBB:not(.ppvx--v1___6STWI).ppvx_contextual-alert--type_error___3DyZg .ppvx_contextual-alert__status-icon___Qz4Yo {
+  color: #d9360b;
+}
+
+
+/*# sourceMappingURL=default~addShippingAddressOverpanel~funding-option-selector~guest~pay-request-success~request-page~r~5d3b84f9.css.map*/

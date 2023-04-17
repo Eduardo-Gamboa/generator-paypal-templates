@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[49],{930:function(e,a,t){"use strict";t.d(a,"a",(function(){return i}));var n=t(1),c=t(13);function i(e){var a={crid:e},t="main:consumer:p2p:gift:save:".concat(e);return{type:n.d.THEME.CHANGE_THEME_ID,data:{themeId:e},meta:Object(c.getAnalyticsMeta)(n.w.ACTION_WITH_DATA,{linkName:"save_theme",pageGroup:"main:consumer:p2p:gift:save",pageName:t,data:a})}}}}]);
+//# sourceMappingURL=default~contact-list~guest~request-preview~send-page~universal-preview.esm.js.map

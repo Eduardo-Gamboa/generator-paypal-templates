@@ -1,0 +1,220 @@
+.ppvx_loading-spinner___2-8-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #005ea6;
+  position: relative;
+  -webkit-animation: border-spinner___2-8-6 1s linear infinite;
+          animation: border-spinner___2-8-6 1s linear infinite;
+}
+.ppvx_loading-spinner___2-8-6:before,
+.ppvx_loading-spinner___2-8-6:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 100% 50%;
+  border-bottom-left-radius: 100% 50%;
+  border: 0.125rem solid currentColor;
+  border-right-width: 0;
+}
+.ppvx_loading-spinner___2-8-6:after {
+  transform-origin: center right;
+  transform: rotate(-90deg);
+}
+@-webkit-keyframes border-spinner___2-8-6 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes border-spinner___2-8-6 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ppvx_loading-spinner--size_xs___2-8-6 {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.ppvx_loading-spinner--size_md___2-8-6 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.ppvx_loading-spinner--size_lg___2-8-6 {
+  width: 3rem;
+  height: 3rem;
+}
+.ppvx_loading-spinner--size_xl___2-8-6 {
+  width: 6rem;
+  height: 6rem;
+}
+.ppvx_loading-spinner--inverse___2-8-6 {
+  color: #ffffff;
+}
+.ppvx_loading-spinner__screenreader___2-8-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx--v2___2-8-6 .ppvx_loading-spinner___2-8-6:not(.ppvx--v1___2-8-6),
+.ppvx_loading-spinner___2-8-6.ppvx--v2___2-8-6:not(.ppvx--v1___2-8-6) {
+  color: #142c8e;
+}
+.ppvx--v2___2-8-6 .ppvx_loading-spinner--inverse___2-8-6:not(.ppvx--v1___2-8-6),
+.ppvx--v2___2-8-6.ppvx_loading-spinner--inverse___2-8-6:not(.ppvx--v1___2-8-6) {
+  color: #ffffff;
+}
+
+.ppvx_action-menu__container___1-9-1 {
+  border-radius: 0.25rem;
+  min-width: 8rem;
+  max-width: 67.5rem;
+  max-height: 30rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  margin-top: 0.25rem;
+  z-index: 1060;
+  box-shadow: 0rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  outline: 0.0625rem solid transparent;
+}
+.ppvx_action-menu___1-9-1 {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+  display: none;
+}
+.ppvx_action-menu___1-9-1.ppvx_menu-list--multiline___1-9-1 .ppvx_menu-list__item--thumbnail___1-9-1 {
+  align-items: end;
+  margin-top: 0.375rem;
+}
+.ppvx_action-menu___1-9-1.ppvx_menu-list--multiline___1-9-1 .ppvx_menu-list__item___1-9-1 {
+  align-items: end;
+}
+.ppvx_action-menu___1-9-1[aria-hidden='false'] {
+  display: block;
+}
+.ppvx_action-menu___1-9-1.keyboard-active___1-9-1 .ppvx_action-menu__item___1-9-1:focus:after {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0.25rem;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: 0.25rem;
+  text-indent: 0.25rem;
+  width: calc(100% - 0.5rem);
+  height: calc(100% - 0rem);
+  pointer-events: none;
+}
+.ppvx_action-menu__item___1-9-1 {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  outline: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+@media (max-width: 46.9375rem) {
+  .ppvx_action-menu__item___1-9-1 {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+  }
+}
+.ppvx_action-menu__item___1-9-1.ppvx_menu-list__item--hilite___1-9-1,
+.ppvx_action-menu__item___1-9-1:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.08) 80%, rgba(44, 46, 47, 0.08) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_action-menu__item___1-9-1:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.12) 80%, rgba(44, 46, 47, 0.12) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_action-menu__item--text___1-9-1 {
+  margin: 0;
+  /* overwrite default margin */
+  color: #2c2e2f;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  pointer-events: none;
+}
+.ppvx_action-menu__item--thumbnail___1-9-1 {
+  pointer-events: none;
+  padding-right: 0.75rem;
+}
+[dir='rtl'] .ppvx_action-menu__item--thumbnail___1-9-1 {
+  padding-left: 0.75rem;
+  padding-right: 0;
+}
+.ppvx_action-menu__item--icon___1-9-1 {
+  pointer-events: none;
+  padding-right: 0.75rem;
+  color: #0070ba;
+}
+[dir='rtl'] .ppvx_action-menu__item--icon___1-9-1 {
+  padding-left: 0.75rem;
+  padding-right: 0;
+}
+.ppvx--v2___1-9-1 .ppvx_action-menu__container___1-9-1:not(.ppvx--v1___1-9-1),
+.ppvx_action-menu__container___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1) {
+  box-shadow: 0rem 0rem 0.125rem rgba(0, 0, 0, 0.04), 0rem 0.0625rem 0.75rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+}
+@media (max-width: 46.9375rem) {
+  .ppvx--v2___1-9-1 .ppvx_action-menu___1-9-1:not(.ppvx--v1___1-9-1),
+  .ppvx_action-menu___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1) {
+    padding: 0.75rem 0 2.125rem 0;
+  }
+}
+.ppvx--v2___1-9-1 .ppvx_action-menu___1-9-1:not(.ppvx--v1___1-9-1).keyboard-active___1-9-1 .ppvx_action-menu__item___1-9-1:focus:after,
+.ppvx_action-menu___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1).keyboard-active___1-9-1 .ppvx_action-menu__item___1-9-1:focus:after {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0.375rem;
+  border: 0.1875rem solid #1040c1;
+  box-shadow: 0 0 0 0.375rem rgba(16, 114, 235, 0.16);
+  border-radius: 0.25rem;
+  text-indent: 0.375rem;
+  width: calc(100% - 0.75rem);
+  height: calc(100% - 0rem);
+  pointer-events: none;
+}
+.ppvx--v2___1-9-1 .ppvx_action-menu___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item___1-9-1,
+.ppvx_action-menu___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item___1-9-1 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.ppvx--v2___1-9-1 .ppvx_action-menu___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item--text___1-9-1,
+.ppvx_action-menu___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item--text___1-9-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-9-1 .ppvx_action-menu___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item--icon___1-9-1,
+.ppvx_action-menu___1-9-1.ppvx--v2___1-9-1:not(.ppvx--v1___1-9-1) .ppvx_action-menu__item--icon___1-9-1 {
+  color: #142c8e;
+}
+.ppvx_action-menu__loading-container___1-9-1 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*# sourceMappingURL=default~chatComponent~guest~pay-request-success~request-page~request-preview~send-page~send-success~~ffb93c1e.css.map*/

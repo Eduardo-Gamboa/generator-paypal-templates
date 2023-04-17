@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[85],{939:function(e,a,n){"use strict";var t=n(0),c=n.n(t),o=n(867),p=n(172);a.a=function(e){let{mobile:a,desktop:n,props:t}=e;return c.a.createElement(o.a,{query:"(max-width: ".concat(p.c.phoneLandscapeMax,"px)")},e=>e?c.a.createElement(a,t):c.a.createElement(n,t))}}}]);
-//# sourceMappingURL=default~more-funnel~request-page~send-page.esm.js.map

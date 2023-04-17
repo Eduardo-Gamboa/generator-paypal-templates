@@ -1,0 +1,188 @@
+.ppvx_link___3-10-6 {
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #0070ba;
+  text-decoration: none;
+  /* Adding class prefix to workaround build changes in pp-react. Note: Do not rely on this, will be removed in next major release */
+}
+.ppvx_link___3-10-6.ppvx_link--caption___3-10-6 {
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.ppvx_link___3-10-6:visited {
+  color: #0070ba;
+}
+.ppvx_link___3-10-6:active {
+  color: #003087;
+}
+.ppvx_link___3-10-6:active,
+.ppvx_link___3-10-6:focus,
+.ppvx_link___3-10-6:hover {
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+}
+.ppvx_link___3-10-6 .ppvx_icon___3-10-6,
+.ppvx_link___3-10-6 > [class^='ppvx_icon___'],
+.ppvx_link___3-10-6 .ppvx_link__left-icon___3-10-6 {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.375rem;
+}
+.ppvx_link___3-10-6:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem #0070ba, 0 0 0 0.375rem #bfdbee;
+  outline: 0.125rem solid transparent;
+  border-radius: 0.25rem;
+}
+.ppvx_link--inverse___3-10-6 {
+  color: #ffffff;
+}
+.ppvx_link--inverse___3-10-6:visited,
+.ppvx_link--inverse___3-10-6:active,
+.ppvx_link--inverse___3-10-6:focus,
+.ppvx_link--inverse___3-10-6:hover {
+  color: #ffffff;
+}
+.ppvx_link--inverse___3-10-6:focus {
+  box-shadow: 0 0 0 0.125rem #bfdbee, 0 0 0 0.375rem rgba(191, 219, 238, 0.4);
+  outline: 0.125rem solid transparent;
+  border-radius: 0.25rem;
+}
+.ppvx_link--secondary___3-10-6:not(.ppvx_link--inverse___3-10-6) {
+  color: #2c2e2f;
+}
+.ppvx_link--secondary___3-10-6:not(.ppvx_link--inverse___3-10-6):active,
+.ppvx_link--secondary___3-10-6:not(.ppvx_link--inverse___3-10-6):focus,
+.ppvx_link--secondary___3-10-6:not(.ppvx_link--inverse___3-10-6):hover,
+.ppvx_link--secondary___3-10-6:not(.ppvx_link--inverse___3-10-6):visited {
+  color: #2c2e2f;
+}
+.ppvx_link__shimmer___3-10-6 {
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 1.5rem;
+}
+/* ---------------- 2.0 variants ------------------ */
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6:not(.ppvx--v1___3-10-6),
+.ppvx_link___3-10-6.ppvx--v2___3-10-6:not(.ppvx--v1___3-10-6) {
+  color: #1072eb;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6:not(.ppvx--v1___3-10-6):focus,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6:not(.ppvx--v1___3-10-6):focus {
+  color: #1040c1;
+  box-shadow: 0 0 0 0.1875rem #1040c1, 0 0 0 0.5625rem rgba(16, 114, 235, 0.16);
+  outline: 0.125rem solid transparent;
+  border-radius: 0.25rem;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6:not(.ppvx--v1___3-10-6):hover,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6:not(.ppvx--v1___3-10-6):hover,
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6:not(.ppvx--v1___3-10-6):active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6:not(.ppvx--v1___3-10-6):active {
+  color: #1040c1;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6:not(.ppvx--v1___3-10-6):active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6:not(.ppvx--v1___3-10-6):active {
+  text-decoration: none;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6 {
+  color: #1040c1;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6:focus,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6:focus {
+  color: #142c8e;
+  box-shadow: 0 0 0 0.1875rem #1040c1, 0 0 0 0.5625rem rgba(16, 114, 235, 0.16);
+  outline: 0.125rem solid transparent;
+  border-radius: 0.25rem;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6:hover,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6:hover,
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6:active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6:active {
+  color: #142c8e;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6:active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6:active {
+  text-decoration: none;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--alt___3-10-6.ppvx_link--caption___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--alt___3-10-6.ppvx_link--caption___3-10-6 {
+  color: #1040c1;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--caption___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--caption___3-10-6 {
+  color: #1072eb;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6:active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6:active,
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6:focus,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6:focus,
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6:hover,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6:hover {
+  color: #0c0c0d;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6:active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6:active {
+  text-decoration: none;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--secondary___3-10-6.ppvx_link--caption___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--secondary___3-10-6.ppvx_link--caption___3-10-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--inverse___3-10-6,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--inverse___3-10-6 {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--inverse___3-10-6:focus,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--inverse___3-10-6:focus {
+  color: #ffffff;
+  box-shadow: 0 0 0 0.1875rem #56ccfe, 0 0 0 0.5625rem rgba(209, 241, 255, 0.16);
+  outline: 0.125rem solid transparent;
+  border-radius: 0.25rem;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--inverse___3-10-6:hover,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--inverse___3-10-6:hover {
+  color: #d1f1ff;
+}
+.ppvx--v2___3-10-6 .ppvx_link___3-10-6.ppvx_link--inverse___3-10-6:active,
+.ppvx_link___3-10-6.ppvx--v2___3-10-6.ppvx_link--inverse___3-10-6:active {
+  color: #e3e6f1;
+  text-decoration: underline;
+}
+
+
+/*# sourceMappingURL=default~ReferralChecklist~chatComponent~contact-list~funding-option-selector~guest~more-funnel~pay-r~43ff99a9.css.map*/

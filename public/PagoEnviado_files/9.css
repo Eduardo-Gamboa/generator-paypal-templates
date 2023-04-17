@@ -1,0 +1,589 @@
+/* DO NOT USE THESE VARIABLES. THESE ARE TEMPORARY VARIABLES, SOON WILL BE REPLACED BY TOKENS */
+.ppvx_modal--container_middle___1-15-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  max-width: 54rem;
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal--container_middle___1-15-1 {
+    width: calc(100% - 3rem);
+  }
+}
+@media screen and (max-width: 36rem) {
+  .ppvx_modal--container_middle___1-15-1 {
+    width: calc(100% - 2rem);
+  }
+}
+.ppvx_modal--container_bottom___1-15-1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 45rem;
+}
+@media screen and (max-width: 64rem) {
+  .ppvx_modal--container_bottom___1-15-1 {
+    width: 35.5rem;
+  }
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal--container_bottom___1-15-1 {
+    width: 100vw;
+  }
+}
+.ppvx_modal___1-15-1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+:not(.ppvx_modal--container_middle___1-15-1):not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1 {
+  width: 75%;
+  max-width: 54rem;
+}
+.ppvx_modal--container_middle___1-15-1 > .ppvx_modal___1-15-1,
+.ppvx_modal--container_bottom___1-15-1 > .ppvx_modal___1-15-1 {
+  flex-basis: 100%;
+}
+.ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) {
+  min-height: 8rem;
+  border-radius: 0.75rem;
+  max-height: 75vh;
+  box-shadow: 0rem 0.75rem 1.75rem rgba(0, 0, 0, 0.16);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+@media screen and (max-width: 47rem) {
+  :not(.ppvx_modal--container_middle___1-15-1):not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) {
+    width: calc(100% - 3rem);
+  }
+}
+@media screen and (max-width: 36rem) {
+  :not(.ppvx_modal--container_middle___1-15-1):not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) {
+    width: calc(100% - 2rem);
+  }
+}
+.ppvx_modal___1-15-1.ppvx_modal--overpanel___1-15-1,
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+  border: 0.0625rem solid #b7bcbf;
+}
+.ppvx_modal___1-15-1.ppvx_modal--overpanel___1-15-1 {
+  height: 100vh;
+  /* Fallback for browsers that do not support Custom Variables */
+  height: calc(var(--vh, 1vh) * 100);
+  top: 100vh;
+  transition: top 0.3s ease-in-out 0.3s;
+}
+@media screen and (max-width: 47rem) {
+  :not(.ppvx_modal--container_middle___1-15-1):not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1.ppvx_modal--overpanel___1-15-1 {
+    width: calc(100% - 3rem);
+  }
+}
+@media screen and (max-width: 36rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--overpanel___1-15-1 {
+    width: 100%;
+  }
+}
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+  height: 100vh;
+  width: auto;
+  bottom: -100vh;
+  transition: bottom 0.3s ease-in-out;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+:not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+  width: 45rem;
+}
+@media screen and (max-width: 64rem) {
+  :not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+    width: 35.5rem;
+  }
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+    height: auto;
+    min-height: 3rem;
+    max-height: 90vh;
+    /* Fallback for browsers that do not support Custom Properties */
+    max-height: calc(var(--vh, 1vh) * 90);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+  :not(.ppvx_modal--container_bottom___1-15-1) > .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 {
+    width: 100vw;
+  }
+}
+.ppvx_modal-backdrop___1-15-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1090;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s 0.3s;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ppvx_modal-backdrop___1-15-1[aria-hidden='false'],
+.ppvx_modal-backdrop___1-15-1.ppvx_modal-backdrop--show___1-15-1 {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.ppvx_modal-backdrop___1-15-1[aria-hidden='false'] .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1),
+.ppvx_modal-backdrop___1-15-1.ppvx_modal-backdrop--show___1-15-1 .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+.ppvx_modal-backdrop___1-15-1[aria-hidden='false'] .ppvx_modal--overpanel___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx_modal-backdrop--show___1-15-1 .ppvx_modal--overpanel___1-15-1 {
+  transition: top 0.3s ease-in-out 0.3s;
+  top: 0;
+}
+.ppvx_modal-backdrop___1-15-1[aria-hidden='false'] .ppvx_modal--sheet___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx_modal-backdrop--show___1-15-1 .ppvx_modal--sheet___1-15-1 {
+  transition: bottom 0.3s ease-in-out 0.3s;
+  bottom: 0;
+}
+.ppvx_scrim___1-15-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1090;
+  visibility: hidden;
+  transition: background-color 0.3s ease-in-out, visibility 0.3s 0.3s;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.ppvx_scrim___1-15-1[aria-hidden='false'],
+.ppvx_scrim___1-15-1.ppvx_scrim--show___1-15-1 {
+  visibility: visible;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ppvx_scrim___1-15-1[aria-hidden='false'] .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1),
+.ppvx_scrim___1-15-1.ppvx_scrim--show___1-15-1 .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+.ppvx_scrim___1-15-1[aria-hidden='false'] .ppvx_modal--overpanel___1-15-1,
+.ppvx_scrim___1-15-1.ppvx_scrim--show___1-15-1 .ppvx_modal--overpanel___1-15-1 {
+  transition: top 0.3s ease-in-out 0.3s;
+  top: 0;
+}
+.ppvx_scrim___1-15-1[aria-hidden='false'] .ppvx_modal--sheet___1-15-1,
+.ppvx_scrim___1-15-1.ppvx_scrim--show___1-15-1 .ppvx_modal--sheet___1-15-1 {
+  transition: bottom 0.3s ease-in-out;
+  bottom: 0;
+}
+.ppvx_modal__contents___1-15-1 {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 0 3rem 0;
+  position: relative;
+  border-radius: inherit;
+}
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal__contents___1-15-1 {
+  padding: 0 8.5rem;
+}
+@media screen and (max-width: 64rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal__contents___1-15-1 {
+    padding: 0 5rem;
+  }
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal__contents___1-15-1 {
+    padding: 0 1.5rem 1.5rem;
+  }
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal__contents___1-15-1 {
+    padding: 0 1rem 1rem;
+  }
+  .ppvx_modal-header___1-15-1 + .ppvx_modal__contents___1-15-1 {
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 36rem) {
+  .ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) .ppvx_modal__contents___1-15-1:not(.ppvx_modal__contents--no-padding___1-15-1) {
+    padding: 0 1rem 1.5rem;
+  }
+  .ppvx_modal___1-15-1.ppvx_modal--overpanel___1-15-1 .ppvx_modal__contents___1-15-1 {
+    padding: 0 0.75rem 1.5rem;
+  }
+}
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal__contents___1-15-1.ppvx_modal__contents--no-padding___1-15-1 {
+  padding: 0;
+}
+.ppvx_modal___1-15-1 .ppvx_modal__contents___1-15-1.ppvx_modal__contents--no-padding___1-15-1 {
+  padding: 0;
+}
+.ppvx_modal__contents--center___1-15-1 {
+  text-align: center;
+}
+.ppvx_modal___1-15-1:not(.ppvx_modal--overpanel___1-15-1):not(.ppvx_modal--sheet___1-15-1) .ppvx_modal__contents___1-15-1 {
+  max-height: 70vh;
+}
+.ppvx_modal__screenreader___1-15-1 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx_modal-header___1-15-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  flex: 0 0 auto;
+  z-index: 1;
+  min-height: 4.5rem;
+}
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 {
+  min-height: 4.5rem;
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 {
+    min-height: 3.5rem;
+  }
+}
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1 {
+  min-height: 4.5rem;
+  padding: 0.75rem 0;
+  margin: 0 1rem;
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1 {
+    min-height: 3.5rem;
+    padding: 0.25rem 0;
+    margin: 0 0.25rem;
+  }
+}
+.ppvx_modal-header--gripper___1-15-1:before {
+  content: '';
+  flex: 0 0 100%;
+  height: 1rem;
+  text-align: center;
+}
+.ppvx_modal-header--gripper___1-15-1:after {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 0.5rem;
+  border: 0.0625rem solid #9da3a6;
+  background-color: #9da3a6;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ppvx_modal-header--divider___1-15-1 {
+  border-bottom: 1px solid #cbd2d6;
+}
+.ppvx_modal-header--scrolled___1-15-1 {
+  box-shadow: 0rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.16);
+}
+.ppvx_modal-header__action___1-15-1 {
+  flex: 0 0 3rem;
+  height: 3rem;
+  margin: 0.5rem 1rem;
+}
+.ppvx_modal-header__title___1-15-1 {
+  flex: 1 1 48px;
+  margin: 0.5rem;
+  text-align: center;
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ppvx_modal-header__close___1-15-1 {
+  flex: 0 0 3rem;
+  margin: 0.75rem;
+  height: 3rem;
+  text-align: right;
+}
+.ppvx_modal-header__work-area___1-15-1 {
+  flex: 0 0 100%;
+  padding: 0.5rem 1rem;
+}
+.ppvx_modal__contents--close___1-15-1 {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 2;
+}
+[dir='rtl'] .ppvx_modal__contents--close___1-15-1 {
+  left: 0.75rem;
+  right: auto;
+}
+.ppvx_modal-header__close-btn___1-15-1 {
+  --deprecated: 'Do not use';
+  /* stylelint-disable declaration-no-important */
+  /* using !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PPUI-Icons' !important;
+  /* stylelint-enable declaration-no-important */
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  speak: none;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background-color: #ffffff;
+  color: #2c2e2f;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-indent: 0.0625rem;
+  position: relative;
+}
+.ppvx_modal-header__close-btn___1-15-1:before {
+  content: '\E919';
+}
+.ppvx_modal-header__close-btn___1-15-1:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.08) 80%, rgba(44, 46, 47, 0.08) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_modal-header__close-btn___1-15-1:active {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(44, 46, 47, 0.12) 80%, rgba(44, 46, 47, 0.12) 100%), none;
+  background-size: 100% 500%;
+  background-position: 0 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.ppvx_modal-header__close-btn___1-15-1:focus {
+  outline: none;
+}
+.ppvx_modal-header__close-btn___1-15-1:focus:after {
+  content: '';
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  right: 0;
+  border: 0.125rem solid #0070ba;
+  box-shadow: 0 0 0 0.25rem #bfdbee;
+  border-radius: 50%;
+  text-indent: 0.0625rem;
+  width: calc(3rem + 0.125rem);
+  height: calc(3rem + 0.125rem);
+  pointer-events: none;
+}
+.ppvx_modal-content__title___1-15-1 {
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.ppvx_modal--overpanel___1-15-1 .ppvx_modal-header___1-15-1:not(.ppvx_modal-header--no-logo___1-15-1) {
+  background: url('https://www.paypalobjects.com/digitalassets/c/website/logo/monogram/pp_fc_mg_2x.png') no-repeat 50% 1.5rem;
+  background-size: 1.5rem;
+}
+.ppvx_modal-footer___1-15-1 {
+  min-height: 4.5rem;
+  padding: 1rem;
+  position: relative;
+  flex: 1 0 auto;
+}
+.ppvx_modal-footer--scrolled___1-15-1 {
+  box-shadow: 0rem -0.1875rem 0.625rem rgba(0, 0, 0, 0.16);
+}
+.ppvx_modal-footer--align_center___1-15-1 {
+  text-align: center;
+}
+.ppvx_modal-footer--align_right___1-15-1 {
+  text-align: right;
+}
+.ppvx_modal___1-15-1 .ppvx_visible-only-in-context___1-15-1 {
+  display: block;
+  display: initial;
+}
+@media screen and (max-width: 47rem) {
+  .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1.ppvx_modal--sheet--height_90___1-15-1 {
+    height: 90vh;
+    /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 90);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+}
+.ppvx_modal-header__close-btn--svg___1-15-1:before {
+  display: none;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) {
+  transition-timing-function: cubic-bezier(0, 0.9, 0.3, 1);
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='false'],
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='false'],
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='false'],
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='false'] {
+  transition-duration: 500ms;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='true'],
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='true'],
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='true'],
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1)[aria-hidden='true'] {
+  transition-duration: 300ms;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1 {
+  min-height: 0;
+  height: auto;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+@media screen and (min-width: 47rem) {
+  .ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+  .ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+  .ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1,
+  .ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header___1-15-1 {
+    padding: 0.75rem 0.375rem 0.75rem 0.375rem;
+  }
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__title___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__title___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__title___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__title___1-15-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__action___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__action___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__action___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__action___1-15-1 {
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  flex-basis: 3rem;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__close___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__close___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__close___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header__close___1-15-1 {
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  flex-basis: 3rem;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__close___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1.ppvx_modal--sheet___1-15-1 .ppvx_modal-header___1-15-1 .ppvx_modal-header__action___1-15-1 {
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents___1-15-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-15-1 .ppvx_scrim___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-content__title___1-15-1,
+.ppvx_scrim___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-content__title___1-15-1,
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-content__title___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-content__title___1-15-1 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: normal;
+}
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal___1-15-1 {
+  box-shadow: none;
+}
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header--scrolled___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-header--scrolled___1-15-1 {
+  box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.04), 0rem 0.125rem 1.125rem rgba(0, 0, 0, 0.1);
+}
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-footer--scrolled___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal-footer--scrolled___1-15-1 {
+  box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.04), 0rem -0.125rem 1.125rem rgba(0, 0, 0, 0.1);
+}
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+.ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1 {
+  right: 0.25rem;
+  top: 0.25rem;
+}
+@media screen and (min-width: 47rem) {
+  .ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+  .ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1 {
+    right: 0.375rem;
+    top: 0.75rem;
+  }
+}
+[dir='rtl'] .ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+.ppvx--v2___1-15-1 [dir='rtl'] .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+[dir='rtl'] .ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1 {
+  left: 0.25rem;
+  right: auto;
+}
+@media screen and (min-width: 47rem) {
+  [dir='rtl'] .ppvx--v2___1-15-1 .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+  .ppvx--v2___1-15-1 [dir='rtl'] .ppvx_modal-backdrop___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1,
+  [dir='rtl'] .ppvx_modal-backdrop___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) .ppvx_modal__contents--close___1-15-1 {
+    left: 0.375rem;
+  }
+}
+.ppvx--v2___1-15-1 .ppvx_scrim--show___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx_scrim--show___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx--v2___1-15-1 .ppvx_modal-backdrop--show___1-15-1:not(.ppvx--v1___1-15-1),
+.ppvx_modal-backdrop--show___1-15-1.ppvx--v2___1-15-1:not(.ppvx--v1___1-15-1) {
+  transition-duration: 500ms;
+}
+
+
+/*# sourceMappingURL=9.css.map*/

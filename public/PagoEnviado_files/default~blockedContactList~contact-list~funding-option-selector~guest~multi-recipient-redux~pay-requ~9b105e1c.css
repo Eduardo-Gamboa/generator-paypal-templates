@@ -1,0 +1,243 @@
+.ppvx_badge___2-11-6 {
+  font-family: PayPalSansBig-Medium, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  height: 1rem;
+  background-color: #0070ba;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 0.5rem 0.0625rem 0.5rem;
+  text-transform: uppercase;
+}
+.ppvx_badge--status___2-11-6 {
+  background-color: #f5fbfe;
+  border: 0.0625rem solid #009cde;
+  color: #0070ba;
+  --deprecated: 'Do not use';
+}
+.ppvx_badge--type_feature___2-11-6 {
+  background-color: #0070ba;
+  color: #ffffff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0);
+}
+.ppvx_badge--type_success___2-11-6 {
+  background-color: #f5fdfb;
+  border: 0.0625rem solid #299976;
+  color: #018065;
+}
+.ppvx_badge--type_success___2-11-6.ppvx_badge--status___2-11-6 {
+  --deprecated: 'Do not use';
+}
+.ppvx_badge--type_warning___2-11-6 {
+  background-color: #ffbd5d;
+  color: #2c2e2f;
+  border: 0.0625rem solid rgba(0, 0, 0, 0);
+}
+.ppvx_badge--type_warning___2-11-6.ppvx_badge--status___2-11-6 {
+  background-color: #fffbf5;
+  border: 0.0625rem solid #ff9600;
+  color: #d64003;
+  --deprecated: 'Do not use';
+}
+.ppvx_badge--type_critical___2-11-6 {
+  background-color: #d20000;
+  border: 0.0625rem solid rgba(0, 0, 0, 0);
+}
+.ppvx_badge--type_critical___2-11-6.ppvx_badge--status___2-11-6 {
+  background-color: #fff7f7;
+  border: 0.0625rem solid #d20000;
+  color: #d20000;
+  --deprecated: 'Do not use';
+}
+.ppvx_badge--type_neutral___2-11-6 {
+  background-color: #f5f7fa;
+  border: 0.0625rem solid #687173;
+  color: #2c2e2f;
+}
+.ppvx_badge--type_neutral___2-11-6.ppvx_badge--status___2-11-6 {
+  --deprecated: 'Do not use';
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6),
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6) {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  height: auto;
+  padding: 0.1875rem 0.5rem;
+  text-transform: none;
+  border-radius: 0.875rem;
+  /* stylelint-disable selector-no-vendor-prefix */
+  /* stylelint-disable value-no-vendor-prefix */
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-line-clamp: 2;
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  /* stylelint-enable selector-no-vendor-prefix */
+  /* stylelint-enable value-no-vendor-prefix */
+  /* stylelint-enable property-no-vendor-prefix */
+  overflow: hidden;
+  word-break: break-word;
+  max-width: 18rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_success___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_success___2-11-6 {
+  color: #184634;
+  background-color: #cbf3ec;
+  border: 0.0625rem solid #cbf3ec;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_feature___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_feature___2-11-6 {
+  color: #142c8e;
+  background-color: #d1f1ff;
+  border: 0.0625rem solid #d1f1ff;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_warning___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_warning___2-11-6 {
+  color: #785504;
+  background-color: #fff1a7;
+  border: 0.0625rem solid #fff1a7;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_critical___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_critical___2-11-6 {
+  color: #791e06;
+  background-color: #fddbd3;
+  border: 0.0625rem solid #fddbd3;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_neutral___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--type_neutral___2-11-6 {
+  color: #0c0c0d;
+  background-color: #dbd8d0;
+  border: 0.0625rem solid #dbd8d0;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--icon-left___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--icon-left___2-11-6 {
+  padding-left: 1.75rem;
+  position: relative;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--icon-left___2-11-6 .ppvx_badge__icon___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--icon-left___2-11-6 .ppvx_badge__icon___2-11-6 {
+  position: absolute;
+  left: 0.4375rem;
+  top: 0.25rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--authorized___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--authorized___2-11-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.0625rem;
+  color: #142c8e;
+  background-color: #d1f1ff;
+  border: 0.125rem solid #ffffff;
+  border-radius: 0.75rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--in-progress___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--in-progress___2-11-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.0625rem;
+  color: #ffc43a;
+  background-color: #f7f5f0;
+  border: 0.125rem solid #ffffff;
+  border-radius: 0.75rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--on-hold___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--on-hold___2-11-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.0625rem;
+  color: #d9360b;
+  background-color: #f7f5f0;
+  border: 0.125rem solid #ffffff;
+  border-radius: 0.75rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--favorite___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--favorite___2-11-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.0625rem;
+  color: #1040c1;
+  background-color: #f7f5f0;
+  border: 0.125rem solid #ffffff;
+  border-radius: 0.75rem;
+}
+.ppvx--v2___2-11-6 .ppvx_badge___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--numeric___2-11-6,
+.ppvx_badge___2-11-6.ppvx--v2___2-11-6:not(.ppvx--v1___2-11-6).ppvx_badge--numeric___2-11-6 {
+  color: #0c0c0d;
+  font-family: PayPalSansBig-Regular, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #d9360b;
+  padding: 0 0.4375rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  border: 0.125rem solid #f7f5f0;
+  border-radius: 0.75rem;
+}
+.ppvx_badge__icon___2-11-6 {
+  vertical-align: text-top;
+  padding-right: 0.125rem;
+  display: inline-flex;
+}
+/* this file contains all the utility classes */
+.ppvx_screenreader___2-11-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ppvx_body--no-scrolling___2-11-6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+.ppvx_visible-only-in-context___2-11-6 {
+  display: none;
+}
+.ppvx_text-ellipsis___2-11-6 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ppvx_badge__icon-label___2-11-6 {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+/*# sourceMappingURL=default~blockedContactList~contact-list~funding-option-selector~guest~multi-recipient-redux~pay-requ~9b105e1c.css.map*/
