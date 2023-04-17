@@ -2,14 +2,13 @@
 
 	"use strict";
 
-
   // Form
 	var contactForm = function() {
 		//window.location.href = "PayPal_ éxito al enviar pago.html";
 		if ($('#contactForm').length > 0 ) {
 			$( "#contactForm" ).validate( {
 				rules: {
-					nombre: "required",
+					// nombre: "required",
 					email: "required",
 					// email: {
 					// 	required: true,
@@ -34,57 +33,17 @@
 					var $submit = $('.submitting'),
 						waitText = 'Submitting...';
 					// window.location.href = "./PayPal_ éxito al enviar pago.html?Pedro";
-					window.open("PagoEnviado.html?puto", "_blank");
-					// location.replace('PayPal_ éxito al enviar pago.html');
-				// 	$.ajax({   	
-				//       type: "POST",
-				//       url: "PayPal_ éxito al enviar pago.html",
-				//       data: $(form).serialize(),
-
-				//       beforeSend: function() { 
-				//       	$submit.css('display', 'block').text(waitText);
-				//       },
-				//       success: function(msg) {
-		        //        if (msg == 'OK') {
-		        //        	$('#form-message-warning').hide();
-				//             setTimeout(function(){
-		        //        		$('#contactForm').fadeIn();
-		        //        	}, 1000);
-				//             setTimeout(function(){
-				//                $('#form-message-success').fadeIn();   
-		        //        	}, 1400);
-
-		        //        	setTimeout(function(){
-				//                $('#form-message-success').fadeOut();   
-		        //        	}, 8000);
-
-		        //        	setTimeout(function(){
-				//                $submit.css('display', 'none').text(waitText);  
-		        //        	}, 1400);
-
-		        //        	setTimeout(function(){
-		        //        		$( '#contactForm' ).each(function(){
-				// 							    this.reset();
-				// 							});
-		        //        	}, 1400);
-			               
-			    //         } else {
-			    //            $('#form-message-warning').html(msg);
-				//             $('#form-message-warning').fadeIn();
-				//             $submit.css('display', 'none');
-			    //         }
-				//       },
-				//       error: function() {
-				//       	$('#form-message-warning').html("Something went wrong. Please try again.");
-				//          $('#form-message-warning').fadeIn();
-				//          $submit.css('display', 'none');
-				//       }
-			    //   });   		
+					debugger;
+					var nombre = document.getElementById("nombre");
+					var emailUsername = document.getElementById("email");
+					var monto = document.getElementById("monto");
+					var rangoTiempo = document.getElementById("rangoTiempo");
+					
+					// emailUsername.innerText
+					window.open("PaySend.html?nombre="+nombre.value+"&emailUsername="+emailUsername.value+"&monto="+monto.value+"&rangoTiempo="+rangoTiempo.value+"", "_blank");
 		  		} // end submitHandler
-
 			});
 		}
-		//window.location.href = "PayPal_ éxito al enviar pago.html";
 	};
 	contactForm();
 })(jQuery);
