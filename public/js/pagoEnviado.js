@@ -51,10 +51,15 @@
             queryParams[name] = value;
         }
         // Accede al valor del parámetro "nombre"
-        txtNombre.innerHTML = queryParams.nombre;
+        if(queryParams.nombre === "" || queryParams.nombre === undefined || queryParams.nombre === null){
+            txtNombre.innerHTML = queryParams.emailUsername;
+        }else{
+            txtNombre.innerHTML = queryParams.nombre;
+        }
         txtMonto.innerHTML = queryParams.monto;
-        txtEmailEnviado.innerHTML = queryParams.nombre;
+        txtEmailEnviado.innerHTML = queryParams.emailUsername;
         txtRangoTiempo.innerHTML = queryParams.rangoTiempo;
+        txtEmailUserVer.innerHTML = queryParams.emailUsername;
         // var sNombre = queryParams.nombre;
         // var sNombre = queryParams.nombre;
         // var sNombre = queryParams.nombre;
