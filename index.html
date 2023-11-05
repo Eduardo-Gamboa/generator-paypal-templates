@@ -23,12 +23,22 @@
                         <div class="row no-gutters">
                             <div class="col-lg-6">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3>Generador de templates - PayPal</h3>
-                                    <p class="mb-4">Página creada con el fin de generar templates PayPal</p>
-                                    <div id="form-message-warning" class="mb-4"></div>
-                                    <div id="form-message-success" class="mb-4">
-                                        Your message was sent, thank you!
+                                    <h3>Generador de templates:</h3>
+                                    <h3 id="hTipoSeleccion"></h3>
+                                    <h5>Selecciona el tipo de template a generar:</h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <p><span>Selecciona:</span></p>
+                                                <select name="cmbTipoTemplate" id="cmbTipoTemplate" class="form-control">
+                                                    <option value="P">PayPal</option>
+                                                    <option value="M">Mercado Pago</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- <p class="mb-4">Página creada con el fin de generar templates</p> -->
+                                    <div id="form-message-warning" class="mb-4"></div>
                                     <div class="row mb-4">
                                         <div class="col-md-4">
                                             <div class="dbox w-100 d-flex align-items-start">
@@ -52,7 +62,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <form method="" id="contactForm" name="contactForm" class="contactForm">
+                                    <form method="" id="fPayPal" name="fPayPal" class="contactForm">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
@@ -92,6 +102,57 @@
 											</div> -->
                                             <div class="col-md-12">
                                                 <div class="form-group">
+                                                    <input type="button" value="PRUEBA" class="btn btn-success" onclick="enviarDatos()">
+                                                    <input type="submit" value="Crear template" class="btn btn-success">
+                                                    <a onclick="limpiarCampos()" class="btn btn-dark" style="color: white;">Limpiar Campos</a>
+                                                    <!-- <a href="PagoEnviado.html" target="_blank"><input type="button" value="Crear template" class="btn btn-primary"></a> -->
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <form method="" id="fMercadoPago" name="fMercadoPago" class="contactForm" style="display: none;">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre completo de la persona:">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="email" id="email" placeholder="Concepto del link o URL:">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="number" class="form-control" name="monto" id="monto" placeholder="Monto a enviar">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="rangoTiempo" id="rangoTiempo" placeholder="Rango de horas">
+                                                    <p><span>Ej: 12 a 48 horas / minutos</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <p><span>Tipo de moneda:</span></p>
+                                                    <select name="cmbMoneda" id="cmbMoneda" class="form-control">
+														<option value="MXN">MXN</option>
+														<option value="USD">USD</option>
+														<option value="CAD">CAD</option>
+													</select>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Create a message here"></textarea>
+												</div>
+											</div> -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="button" value="PRUEBA" class="btn btn-success" onclick="enviarDatos()">
                                                     <input type="submit" value="Crear template" class="btn btn-success">
                                                     <a onclick="limpiarCampos()" class="btn btn-dark" style="color: white;">Limpiar Campos</a>
                                                     <!-- <a href="PagoEnviado.html" target="_blank"><input type="button" value="Crear template" class="btn btn-primary"></a> -->
