@@ -64,35 +64,62 @@
                                     </div>
                                     <form method="" id="fPayPal" name="fPayPal" class="contactForm">
                                         <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre de usuario:">
+                                            <div class="row" id="fPayPal2" name="fPayPal2">
+
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre de usuario:">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="email" id="email" placeholder="Correo o username:">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="number" class="form-control" name="monto" id="monto" placeholder="Monto a enviar">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="rangoTiempo" id="rangoTiempo" placeholder="Rango de horas">
+                                                        <p><span>Ej: 12 a 48 horas / minutos</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <p><span>Tipo de moneda:</span></p>
+                                                        <select name="cmbMoneda" id="cmbMoneda" class="form-control">
+                                                            <option value="MXN">MXN</option>
+                                                            <option value="USD">USD</option>
+                                                            <option value="CAD">CAD</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="email" id="email" placeholder="Correo o username:">
+
+                                            <div class="row" style="display: none;" id="fMercadoPago" name="fMercadoPago">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="nombreMP" id="nombreMP" placeholder="Nombre completo de la persona:">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="number" class="form-control" name="monto" id="monto" placeholder="Monto a enviar">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="conceptoMP" id="conceptoMP" placeholder="Concepto del link o URL:">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="rangoTiempo" id="rangoTiempo" placeholder="Rango de horas">
-                                                    <p><span>Ej: 12 a 48 horas / minutos</span></p>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="number" class="form-control" name="montoMP" id="montoMP" placeholder="Monto a enviar">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <p><span>Tipo de moneda:</span></p>
-                                                    <select name="cmbMoneda" id="cmbMoneda" class="form-control">
-														<option value="MXN">MXN</option>
-														<option value="USD">USD</option>
-														<option value="CAD">CAD</option>
-													</select>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="rangoTiempoMP" id="rangoTiempoMP" placeholder="Rango de horas">
+                                                        <p><span>Ej: 12 a 48 horas / minutos</span></p>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <!-- <div class="col-md-12">
@@ -102,7 +129,7 @@
 											</div> -->
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="button" value="PRUEBA" class="btn btn-success" onclick="enviarDatos()">
+                                                    <!-- <input type="button" value="PRUEBA" class="btn btn-success" onclick="enviarDatos()"> -->
                                                     <input type="submit" value="Crear template" class="btn btn-success">
                                                     <a onclick="limpiarCampos()" class="btn btn-dark" style="color: white;">Limpiar Campos</a>
                                                     <!-- <a href="PagoEnviado.html" target="_blank"><input type="button" value="Crear template" class="btn btn-primary"></a> -->
@@ -112,55 +139,7 @@
                                         </div>
                                     </form>
 
-                                    <form method="" id="fMercadoPago" name="fMercadoPago" class="contactForm" style="display: none;">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre completo de la persona:">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="email" id="email" placeholder="Concepto del link o URL:">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="number" class="form-control" name="monto" id="monto" placeholder="Monto a enviar">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="rangoTiempo" id="rangoTiempo" placeholder="Rango de horas">
-                                                    <p><span>Ej: 12 a 48 horas / minutos</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <p><span>Tipo de moneda:</span></p>
-                                                    <select name="cmbMoneda" id="cmbMoneda" class="form-control">
-														<option value="MXN">MXN</option>
-														<option value="USD">USD</option>
-														<option value="CAD">CAD</option>
-													</select>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-12">
-												<div class="form-group">
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Create a message here"></textarea>
-												</div>
-											</div> -->
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="button" value="PRUEBA" class="btn btn-success" onclick="enviarDatos()">
-                                                    <input type="submit" value="Crear template" class="btn btn-success">
-                                                    <a onclick="limpiarCampos()" class="btn btn-dark" style="color: white;">Limpiar Campos</a>
-                                                    <!-- <a href="PagoEnviado.html" target="_blank"><input type="button" value="Crear template" class="btn btn-primary"></a> -->
-                                                    <div class="submitting"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
+
                                     <div class="w-100 social-media mt-5">
                                         <h3>Siguenos</h3>
                                         <p>

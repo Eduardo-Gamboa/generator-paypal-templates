@@ -9,7 +9,16 @@
     var rangoTiempo = document.getElementById("rangoTiempo");
     var moneda = document.getElementById("cmbMoneda");
     var tipoTemplate = document.getElementById("cmbTipoTemplate");
-    cambiarSeleccion();
+
+    var nombreMP = document.getElementById("nombreMP");
+    var conceptoMP = document.getElementById("conceptoMP");
+    var montoMP = document.getElementById("montoMP");
+    var rangoTiempoMP = document.getElementById("rangoTiempoMP");
+
+    var v = $("#cmbTipoTemplate").val();
+    // if (v === "P"){
+    //     cambiarSeleccion();
+    // }
     // Form
     var contactForm = function() {
         debugger;
@@ -50,11 +59,11 @@
                 }
                 break;
             case "M":
-                if ($('#fMercadoPago').length > 0) {
-                    $("#fMercadoPago").validate({
+                if ($('#fPayPal').length > 0) {
+                    $("#fPayPal").validate({
                         rules: {
-                            // nombre: "required",
-                            email: "required",
+                            nombreMP: "required",
+                            conceptoMP: "required",
                             // email: {
                             // 	required: true,
                             // },
@@ -62,23 +71,22 @@
                                 required: true,
                                 minlength: 5
                             },
-                            monto: "required",
-                            rangoTiempo: "required",
+                            montoMP: "required",
+                            rangoTiempoMP: "required",
                         },
                         messages: {
-                            nombre: "Por favor ingresa el nombre:",
-                            subject: "Por favor ingresa el correo",
-                            email: "Por favor ingresa el correo o nombre de usuario",
+                            nombreMP: "Por favor ingresa el nombre completo:",
+                            conceptoMP: "Por favor ingresa el concepto del link.",
                             message: "Please enter a message",
-                            monto: "Debe ingresar un monto valido",
-                            rangoTiempo: "Debe ingresar un rango de tiempo",
+                            montoMP: "Debe ingresar un monto valido",
+                            rangoTiempoMP: "Debe ingresar un rango de tiempo",
                         },
                         /* submit via ajax */
                         submitHandler: function() {
                                 var $submit = $('.submitting'),
                                     waitText = 'Submitting...';
 
-                                window.open("PaySend.html?nombre=" + nombre.value + "&emailUsername=" + emailUsername.value + "&monto=" + monto.value + "&rangoTiempo=" + rangoTiempo.value + "&moneda=" + moneda.value + "", "_blank");
+                                window.open("Detalle Transferencia MP - Movil.html?nombreMP=" + nombreMP.value + "&conceptoMP=" + conceptoMP.value + "&montoMP=" + montoMP.value + "&rangoTiempoMP=" + rangoTiempoMP.value + "", "_blank");
                             } // end submitHandler
                     });
                 }
@@ -109,10 +117,10 @@ function cambiarSeleccion() {
     var v = $("#cmbTipoTemplate").val();
     if (v === "P") {
         $("#hTipoSeleccion").text("PayPal");
-        $("#fPayPal").show();
+        $("#fPayPal2").show();
         $("#fMercadoPago").hide();
     } else if (v === "M") {
-        $("#fPayPal").hide();
+        $("#fPayPal2").hide();
         $("#fMercadoPago").show();
         $("#hTipoSeleccion").text("Mercado Pago");
     }

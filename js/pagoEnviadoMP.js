@@ -62,11 +62,12 @@
         // } else {
         //     txtNombre.innerHTML = queryParams.nombre;
         // }
-        txtMonto.innerHTML = queryParams.monto;
-        txtNombre.innerHTML = queryParams.emailUsername;
-        txtRangoTiempo.innerHTML = queryParams.rangoTiempo;
-        txtEmailUserVer.innerHTML = queryParams.emailUsername;
-        txtConcepto.innerHTML = queryParams.concepto;
+        txtMonto.innerHTML = queryParams.montoMP;
+        txtNombre.innerHTML = queryParams.nombreMP;
+        txtRangoTiempo.innerHTML = queryParams.rangoTiempoMP;
+        // txtEmailUserVer.innerHTML = queryParams.emailUsername;
+        txtConcepto.innerHTML = queryParams.conceptoMP;
+
         // txtMoneda.innerHTML
         // var sNombre = queryParams.nombre;
         // var sNombre = queryParams.nombre;
