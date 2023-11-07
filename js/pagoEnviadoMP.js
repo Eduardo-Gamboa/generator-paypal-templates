@@ -28,9 +28,6 @@
         // Construir la cadena de fecha en el formato deseado
         var fechaFormateada = dia + " de " + mes + " " + horas + ":" + minutos + " " + amOpm;
 
-        // Mostrar la fecha formateada en el elemento HTML
-        // $("#fecha").text(fechaFormateada);
-
 
         var txtNombre = document.getElementById("txtNombreUsuario");
         var txtMonto = document.getElementById("txtMonto");
