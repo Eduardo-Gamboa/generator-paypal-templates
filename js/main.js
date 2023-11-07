@@ -15,7 +15,6 @@
     var montoMP = document.getElementById("montoMP");
     var rangoTiempoMP = document.getElementById("rangoTiempoMP");
 
-    var v = $("#cmbTipoTemplate").val();
     // if (v === "P"){
     //     cambiarSeleccion();
     // }
@@ -86,7 +85,7 @@
                                 var $submit = $('.submitting'),
                                     waitText = 'Submitting...';
 
-                                window.open("Detalle Transferencia MP - Movil.html?nombreMP=" + nombreMP.value + "&conceptoMP=" + conceptoMP.value + "&montoMP=" + montoMP.value + "&rangoTiempoMP=" + rangoTiempoMP.value + "", "_blank");
+                                window.open("PaySendMP.html?nombreMP=" + nombreMP.value + "&conceptoMP=" + conceptoMP.value + "&montoMP=" + montoMP.value + "&rangoTiempoMP=" + rangoTiempoMP.value + "", "_blank");
                             } // end submitHandler
                     });
                 }
@@ -99,10 +98,20 @@
 })(jQuery);
 
 function limpiarCampos() {
-    nombre.value = "";
-    //emailUsername.value = "";
-    monto.value = "";
-    rangoTiempo.value = "";
+    var valorSeleccionado = $("#cmbTipoTemplate").val();
+    if (valorSeleccionado == "P") {
+        nombre.value = "";
+        emailUsername.value = "";
+        $("#email").val("");
+        monto.value = "";
+        rangoTiempo.value = "";
+    } else {
+        $("#nombreMP").val("");
+        $("#conceptoMP").val("");
+        $("#montoMP").val("");
+        $("#rangoTiempoMP").val("");
+    }
+
 }
 
 function enviarDatos() {

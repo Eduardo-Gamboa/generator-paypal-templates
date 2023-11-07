@@ -1,7 +1,6 @@
 (function($) {
 
     "use strict";
-
     var Init = function() {
         // Arreglos de nombres de meses y nombres de AM/PM
         var meses = [
@@ -38,6 +37,7 @@
         // var txtEmailEnviado = document.getElementById("txtEmailEnviado");
         var txtRangoTiempo = document.getElementById("txtRangoTiempo");
         var txtConcepto = document.getElementById("txtConceptoMP");
+        var txtFechaActual = document.getElementById("txtFechaActual");
         // var txtMoneda = document.getElementById("txtMoneda");
         // debugger;
         var queryString = window.location.search;
@@ -67,7 +67,7 @@
         txtRangoTiempo.innerHTML = queryParams.rangoTiempoMP;
         // txtEmailUserVer.innerHTML = queryParams.emailUsername;
         txtConcepto.innerHTML = queryParams.conceptoMP;
-
+        txtFechaActual.innerHTML = fechaFormateada;
         // txtMoneda.innerHTML
         // var sNombre = queryParams.nombre;
         // var sNombre = queryParams.nombre;
