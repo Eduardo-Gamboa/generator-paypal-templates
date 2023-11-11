@@ -61,24 +61,24 @@
                 if ($('#fPayPal').length > 0) {
                     $("#fPayPal").validate({
                         rules: {
-                            nombreMP: "required",
-                            conceptoMP: "required",
-                            // email: {
-                            // 	required: true,
+                            // nombreMP: "required",
+                            // conceptoMP: "required",
+                            // // email: {
+                            // // 	required: true,
+                            // // },
+                            // message: {
+                            //     required: true,
+                            //     minlength: 5
                             // },
-                            message: {
-                                required: true,
-                                minlength: 5
-                            },
-                            montoMP: "required",
-                            rangoTiempoMP: "required",
+                            // montoMP: "required",
+                            // rangoTiempoMP: "required",
                         },
                         messages: {
-                            nombreMP: "Por favor ingresa el nombre completo:",
-                            conceptoMP: "Por favor ingresa el concepto del link.",
-                            message: "Please enter a message",
-                            montoMP: "Debe ingresar un monto valido",
-                            rangoTiempoMP: "Debe ingresar un rango de tiempo",
+                            // nombreMP: "Por favor ingresa el nombre completo:",
+                            // conceptoMP: "Por favor ingresa el concepto del link.",
+                            // message: "Please enter a message",
+                            // montoMP: "Debe ingresar un monto valido",
+                            // rangoTiempoMP: "Debe ingresar un rango de tiempo",
                         },
                         /* submit via ajax */
                         submitHandler: function() {
