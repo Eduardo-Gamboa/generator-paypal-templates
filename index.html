@@ -31,7 +31,7 @@
                                             <div class="form-group">
                                                 <p><span>Selecciona:</span></p>
                                                 <select name="cmbTipoTemplate" id="cmbTipoTemplate" class="form-control">
-                                                    <option value="P">PayPal</option>
+                                                    <option value="P" selected>PayPal</option>
                                                     <option value="M">Mercado Pago</option>
                                                 </select>
                                             </div>
@@ -62,7 +62,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <form method="" id="fPayPal" name="fPayPal" class="contactForm">
+                                    <form method="post" id="fPayPal" name="fPayPal" class="contactForm" onsubmit="return enviarFormulario()">
                                         <div class="row">
                                             <div class="col-md-12" id="fPayPal2" name="fPayPal2">
                                                 <div class="col-md-12">
