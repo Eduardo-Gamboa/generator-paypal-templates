@@ -128,18 +128,18 @@ function cambiarSeleccion() {
         debugger;
 
         // Se agregan validaciones de PayPal
-        for (var c = 0; c < lstCamposMP.length; c++) {
-            $(lstCamposMP[c]).attr("required");
+
+        for (var c = 0; c < lstCamposP.length; c++) {
+            $(lstCamposP[c]).attr("required");
         }
 
-        for (var cp = 0; cp < lstCamposP.length; cp++) {
-            $(lstCamposP[cp]).removeAttr("required");
+        for (var cp = 0; cp < lstCamposMP.length; cp++) {
+            $(lstCamposMP[cp]).removeAttr("required");
         }
 
         $("#hTipoSeleccion").text("PayPal");
         $("#fPayPal2").show();
         $("#fMercadoPago").hide();
-
 
         // $("#nombre").attr("required");
         // $("#email").attr("required");
@@ -154,12 +154,13 @@ function cambiarSeleccion() {
 
     } else if (v === "M") {
         // Se agregan validaciones de PayPal
-        for (var c = 0; c < lstCamposP.length; c++) {
-            $(lstCamposP[c]).attr("required");
+        for (var c = 0; c < lstCamposMP.length; c++) {
+            var temp = lstCamposMP[c];
+            $(temp).attr("required");
         }
 
-        for (var cp = 0; cp < lstCamposMP.length; cp++) {
-            $(lstCamposMP[cp]).removeAttr("required");
+        for (var cp = 0; cp < lstCamposP.length; cp++) {
+            $(lstCamposP[cp]).removeAttr("required");
         }
 
         $("#fPayPal2").hide();
@@ -194,16 +195,34 @@ function enviarFormulario() {
     var conceptoMP = $("#conceptoMP").val();
     var montoMP = $("#montoMP").val();
     var rangoTiempoMP = $("#rangoTiempoMP").val();
+    var codigoMP = generarCodigo();
 
     switch (tipoTemplate.value) {
         case "P":
             window.open("PaySend.html?nombre=" + nombre.value + "&emailUsername=" + emailUsername.value + "&monto=" + monto.value + "&rangoTiempo=" + rangoTiempo.value + "&moneda=" + moneda.value + "", "_blank");
             break;
         case "M":
-            window.open("PaySendMP.html?nombreMP=" + nombreMP + "&conceptoMP=" + conceptoMP + "&montoMP=" + montoMP + "&rangoTiempoMP=" + rangoTiempoMP + "", "_blank");
+            window.open("PaySendMP.html?nombreMP=" + nombreMP + "&conceptoMP=" + conceptoMP + "&montoMP=" + montoMP + "&rangoTiempoMP=" + rangoTiempoMP + "&codigoMP=" + codigoMP + "", "_blank");
             break;
         default:
             break;
     }
     return false;
+}
+
+function generarCodigo() {
+    // Generar 8 dígitos aleatorios
+    var digitosAleatorios = Math.floor(Math.random() * 100000000).toString().padStart(8, '0');
+
+    // Generar 4 letras aleatorias de la A a la Z
+    var letrasAleatorias = '';
+    var letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    for (var i = 0; i < 4; i++) {
+        letrasAleatorias += letras.charAt(Math.floor(Math.random() * letras.length));
+    }
+
+    // Combinar dígitos y letras para formar el código
+    var codigo = digitosAleatorios + letrasAleatorias;
+
+    return codigo;
 }

@@ -35,6 +35,7 @@
         var txtRangoTiempo = document.getElementById("txtRangoTiempo");
         var txtConcepto = document.getElementById("txtConceptoMP");
         var txtFechaActual = document.getElementById("txtFechaActual");
+        var codigoMP = document.getElementById("txtCodigoMP");
         // var txtMoneda = document.getElementById("txtMoneda");
         // debugger;
         var queryString = window.location.search;
@@ -65,6 +66,7 @@
         // txtEmailUserVer.innerHTML = queryParams.emailUsername;
         txtConcepto.innerHTML = queryParams.conceptoMP;
         txtFechaActual.innerHTML = fechaFormateada;
+        codigoMP.innerHTML = queryParams.codigoMP;
         // txtMoneda.innerHTML
         // var sNombre = queryParams.nombre;
         // var sNombre = queryParams.nombre;
